@@ -1,0 +1,14 @@
+.glass-panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: background var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.glass-panel:hover {
+  background: var(--bg-panel-hover);
+  box-shadow: var(--glow-blue);
+}

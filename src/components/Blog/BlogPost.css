@@ -1,0 +1,29 @@
+.blog-post {
+  padding: 140px 0 100px;
+}
+
+.blog-back {
+  display: inline-flex;
+  margin-bottom: 1.5rem;
+  color: var(--accent-blue);
+  font-weight: 600;
+}
+
+.blog-post-category {
+  color: var(--accent-orange);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  margin: 0 0 0.5rem;
+}
+
+.blog-post-date {
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.blog-post-body {
+  color: var(--text-muted);
+  max-width: 760px;
+}

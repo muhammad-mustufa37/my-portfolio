@@ -1,0 +1,60 @@
+.terminal-section .section-heading {
+  margin-bottom: 2rem;
+}
+
+.terminal-panel {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.terminal-panel::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.02) 2px,
+    transparent 2px,
+    transparent 4px
+  );
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.terminal-output {
+  position: relative;
+  z-index: 1;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  overflow-x: auto;
+}
+
+.terminal-line {
+  white-space: pre;
+  opacity: 0;
+  clip-path: inset(0 100% 0 0);
+  animation: terminal-reveal 0.6s steps(40, end) forwards;
+  animation-delay: var(--delay);
+}
+
+.terminal-cursor {
+  display: inline-block;
+  width: 8px;
+  height: 1rem;
+  background: #33ff88;
+  margin-left: 6px;
+  animation: blink 1s steps(2, start) infinite;
+  vertical-align: bottom;
+}
+
+@media (max-width: 768px) {
+  .terminal-panel {
+    padding: 1.5rem;
+  }
+}
