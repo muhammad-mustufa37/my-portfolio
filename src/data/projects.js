@@ -17,11 +17,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Smart Power Monitor',
+    title: 'Coming Soon',
     category: 'Embedded Systems',
-    technologies: ['Embedded C', 'ADC', 'UART', 'Filtering'],
+    technologies: ['xxxxxx', 'xxxxxxx', 'xxxxx', 'xxxxx'],
     description:
-      'Working on a real-time power monitor with data logging and serial insights.',
+      'xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx.',
     images: [],
     github: null,
     demo: null,
@@ -30,11 +30,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'IoT Sensor Mesh',
+    title: 'Coming Soon',
     category: 'Networking',
-    technologies: ['MQTT', 'ESP32', 'Wi-Fi', 'Node-RED'],
+    technologies: ['xxxxxx', 'xxxxxxx', 'xxxxx', 'xxxxx'],
     description:
-      'In progress sensor network for reliable environmental data collection.',
+      'xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx.',
     images: [],
     github: null,
     demo: null,
@@ -43,11 +43,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'RTOS Task Scheduler',
+    title: 'Coming Soon',
     category: 'Embedded Systems',
-    technologies: ['FreeRTOS', 'Scheduling', 'Queues', 'Timers'],
+    technologies: ['xxxxxx', 'xxxxxxx', 'xxxxx', 'xxxxx'],
     description:
-      'Coming soon: multitasking demo with priority-based scheduling and IPC.',
+      'Coming soon xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx.',
     images: [],
     github: null,
     demo: null,
@@ -56,11 +56,11 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'Secure Device Provisioning',
+    title: 'Coming Soon',
     category: 'Security',
-    technologies: ['TLS', 'Certificates', 'Bootstrapping', 'PKI'],
+    technologies: ['xxxxxx', 'xxxxxxx', 'xxxxx', 'xxxxx'],
     description:
-      'In progress secure provisioning workflow for embedded devices.',
+      'xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx.',
     images: [],
     github: null,
     demo: null,
