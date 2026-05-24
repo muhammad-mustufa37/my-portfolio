@@ -20,19 +20,21 @@ function Skills() {
       <div className="container">
         <p className="section-title">SKILLS</p>
         <h2 className="section-heading">Core competencies</h2>
-        <div className="skills-grid">
-          {skills.map((group) => (
-            <div className="glass-panel skill-card" key={group.category}>
-              <h3>{group.category}</h3>
-              <div className="skill-tags">
-                {group.items.map((item) => (
-                  <span className="tag" key={item}>
-                    {item}
-                  </span>
-                ))}
+        <div className="skills-slider" role="region" aria-label="Skills slider">
+          <div className="skills-track">
+            {skills.map((group) => (
+              <div className="glass-panel skill-card" key={group.category}>
+                <h3>{group.category}</h3>
+                <div className="skill-tags">
+                  {group.items.map((item) => (
+                    <span className="tag" key={item}>
+                      {item}
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </motion.section>

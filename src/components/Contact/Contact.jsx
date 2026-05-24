@@ -43,15 +43,33 @@ function Contact() {
         <form className="contact-form" onSubmit={handleSubmit}>
           <label>
             <span className="visually-hidden">Name</span>
-            <input name="name" type="text" placeholder="Name" required />
+            <input
+              name="name"
+              type="text"
+              placeholder="Name"
+              autoComplete="name"
+              required
+            />
           </label>
           <label>
             <span className="visually-hidden">Email</span>
-            <input name="email" type="email" placeholder="Email" required />
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              autoComplete="email"
+              required
+            />
           </label>
           <label>
             <span className="visually-hidden">Message</span>
-            <textarea name="message" rows="4" placeholder="Message" required />
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Message"
+              autoComplete="off"
+              required
+            />
           </label>
           <button className="btn btn-primary" type="submit">
             Send Message

@@ -29,7 +29,7 @@ function Hero() {
             Muhammad Mustufa 
           </motion.p>
           <motion.h1 variants={itemVariants} className="hero-title">
-            Industrial Electronics Engineer
+            Aspiring Industrial Electronics Engineer
           </motion.h1>
           <motion.p variants={itemVariants} className="hero-subtitle">
             Embedded Systems | IoT | Bare-Metal C

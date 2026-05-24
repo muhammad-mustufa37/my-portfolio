@@ -1,14 +1,23 @@
-.blog-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.5rem;
+.blog-slider {
   margin-top: 2.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.75rem;
+}
+
+.blog-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(260px, 1fr);
+  gap: 1.5rem;
 }
 
 .blog-card {
   padding: 1.5rem;
   display: grid;
   gap: 0.75rem;
+  scroll-snap-align: start;
 }
 
 .blog-card h3 {
@@ -38,13 +47,7 @@
 }
 
 @media (max-width: 900px) {
-  .blog-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 640px) {
-  .blog-grid {
-    grid-template-columns: 1fr;
+  .blog-track {
+    grid-auto-columns: minmax(240px, 80vw);
   }
 }

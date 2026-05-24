@@ -51,6 +51,14 @@ function Navbar() {
     return () => observer.disconnect()
   }, [])
 
+  useEffect(() => {
+    document.body.classList.toggle('nav-open', isOpen)
+
+    return () => {
+      document.body.classList.remove('nav-open')
+    }
+  }, [isOpen])
+
   const handleNavClick = () => setIsOpen(false)
 
   return (
