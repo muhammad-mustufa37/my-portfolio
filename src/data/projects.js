@@ -1,5 +1,6 @@
 import timerControlledLed from './images/timerControlledLed.jpeg'
 import timerControlledLed2 from './images/timerControlledLed2.jpeg'
+import inProgressLFR from './images/inProgressLFR.jpeg'
 
 export const projects = [
   {
@@ -19,11 +20,11 @@ export const projects = [
     id: 2,
     title: 'Line Following Robot - LFR',
     category: 'Embedded Systems',
-    technologies: ['PID', 'Sensor Fusion', 'Motor Control','C++','esp32'],
+    technologies: ['PID','Non-blocking timer', 'QTR8A IR Sensors', 'Motor Control','C++','mega2560'],
     description:
-      'Autonomous line-following robot using PID control. Integrates QTR8A IR sensors for line detection and motor drivers for precise movement.',
-    images: [],
-    github: null,
+      'High-performance line-following robot driven by a custom modular C++ HAL, precise PID control, QTR-8A IR sensor integration, and a non-blocking motor execution system.',
+    images: [inProgressLFR],
+    github: 'https://github.com/muhammad-mustufa37/ModularLFR',
     demo: null,
     featured: true,
     status: 'Working on it',

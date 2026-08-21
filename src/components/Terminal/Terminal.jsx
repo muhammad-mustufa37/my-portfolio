@@ -20,7 +20,7 @@ const lines = [
   '',
   '$ status --verbose',
   '  [█████░░░░░] Phase 1: C Mastery                    50%',
-  '  [██░░░░░░░░] Phase 2: AVR Microcontroller          20%',
+  '  [█████░░░░░] Phase 2: AVR Microcontroller          50%',
   '  [░░░░░░░░░░] Phase 3: FreeRTOS                     0%',
   '',
   '$ echo "Building in public. Growing every day."',
